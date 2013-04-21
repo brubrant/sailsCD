@@ -1,0 +1,82 @@
+{
+		"albumId" : "1",
+		"title": "Abapuru",
+		"author": "Laura Lopes",
+		"preco": "R$12,00",
+		"coverart": "Abapuru_cover.jpg",
+		"mais" : "<p>O quadro Abaporu (1928), de Tarsila do Amaral é sem dúvida um dos símbolos mais potentes não só da produção artística, quanto da própria sociedade brasileira. Olhar para o estrangeiro, misturá-lo às particularidades da nossa cultura tradicional e transformá-lo em algo marcado pela força das cores, ritmos e apuro das poesias e melodias, é a tônica do primeiro álbum de Laura Lopes, assim como foi do quadro e do movimento artístico do qual ele foi marco fundador.</p><br><p>A gravação do disco Abaporu, da cantora e compositora Laura Lopes, é fruto de uma trajetória artística que vem se desenvolvendo. Primeiro disco com cara de novidade! As parcerias do álbum mostram a nova geração desses vinte e poucos (ou tantos) anos que se manifesta na capital mineira.</p>",
+		"video" : {
+			"youtube" : "<iframe width='420' height='315' src='http://www.youtube.com/embed/_D7iUSVuRIU' frameborder='0' allowfullscreen></iframe>"
+			},
+		
+		"tracks": [
+			{
+				"title": "Abapuru",
+				"number": "1",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:03:27"
+			},
+			{
+				"title": "À cidade",
+				"number": "2",
+				"composer": "Laura Lopes",
+				"duration" : "00:05:00"
+			},
+			{
+				"title": "Carta de despedida",
+				"number": "3",
+				"composer": "Laura Lopes e César Lacerda",
+				"duration" : "00:04:46"
+			},
+			{
+				"title": "Abapuru",
+				"number": "4",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "5",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "6",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "7",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "8",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "9",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "10",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			},
+			{
+				"title": "Abapuru",
+				"number": "11",
+				"composer": "César Lacerda e Numa Ciro",
+				"duration" : "00:02:01"
+			}
+
+		],
+		"link": "http://"
+	}

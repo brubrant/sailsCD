@@ -1,0 +1,91 @@
+ <!-- Main Grid Section -->
+<div ng-controller="DetalheAlbumCtrl">
+  <div class="row">    
+    <div class="album-title title large-12 columns">
+      <h1>{{album.title}} de Laura Lopes</h1>
+    </div>
+  </div>
+  
+  <div class="row">    
+    <div class="album-cover large-5 columns">
+      <div class="panel">
+        <p>
+          <!-- <img src="http://placehold.it/500x500"> -->
+          <img ng-src="images/{{album.coverart}}">
+        </p>
+      </div>      
+    </div>  
+    <div class="tracklist large-6 large-offset-1 columns">
+      <h5>Faixas do álbum</h5>
+      <ul class="tracklist">
+        <table width="100%">
+          <thead>
+            <tr>
+              <th>Nº</th>
+              <th>Título</th>
+              <th>Duração</th>
+              <!-- <th>Composição</th> -->
+            </tr>
+          </thead>
+          <tr ng-repeat="track in album.tracks">
+            <td>{{track.number}}</td>
+            <td><strong>{{track.title}}</strong></td>
+            <td>{{track.duration}}</td>
+            <!-- <td>{{track.composer}}</td> -->
+          </tr>
+        </table>
+      
+      </ul>
+    </div>
+    <div class="pricing large-6 large-offset-1 columns display">
+        <div class="row">
+          <div class="large-5 columns"><a ng-click="irComprar()" class="button round success">Compre agora!</a></div>
+          <div class="large-7 columns"><p>Apenas: <span>{{album.preco}}</span></p></div>
+        </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="large-12 columns">
+        <hr>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-7 columns">
+      <h5>Mais sobre o Album</h5>
+      <div ng-bind-html-unsafe="album.mais"></div>
+
+      <h5>Vídeos</h5>      
+      <div class="flex-video widescreen">
+        <div ng-bind-html-unsafe="album.video.youtube"></div>
+      </div>
+    </div>
+    <div class="large-4 large-offset-1 columns">
+      <h4>Sobre o artista</h4>
+      <h6>Bio</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatibus, laudantium sequi quis laborum culpa.</p>
+      <h4>Visite</h4>
+      <ul>
+        <li><a href="#" class="fc-webicon facebook small">Faceboock</a><a href="">Página no Facebook</a></li>
+        <li><a href="#" class="fc-webicon twitter small">Twitter</a><a href="">Perfil no Twitter</a></li>
+        <li><a href="#" class="fc-webicon soundcloud small">Soundcloud</a><a href="">Perfil no SoundCloud</a></li>
+        <li><a href="#" class="fc-webicon wordpress small">Site oficial</a><a href="">Site oficial</a></li>
+        <li><a href="#" class="fc-webicon youtube small">Canal no Youtube</a><a href="">Canal no Youtbe</a></li>
+      </ul>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">        
+        <h4>Comodidade</h4>
+        <p>Após a conclusão do seu pedido a equipe da banda envia o CD para o endereço que você escolher. Se tiver com muita pressa para ouvir seu disco novo ou presentear uma pessoal especial, você pode escolher pelo envio via SEDEX!</p>
+        <p class="text-center"><a href="#" class="button round success ">Compre agora!</a></p>
+      </div>
+    </div> <!-- End Grid Section -->
+  </div> <!-- End ng-controller="AlbumCtrl" -->
