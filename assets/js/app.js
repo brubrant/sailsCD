@@ -9,7 +9,7 @@ angular.module('myApp', ['localServices', 'APIServices']).
     	when('/view2', {templateUrl: 'template/find/partial2.html', controller: 'MyCtrl2'}).
     	when('/album', {templateUrl: 'template/find/albuns.html', controller: 'AlbumCtrl'}).
     	when('/album/:albumId', {templateUrl: 'template/find/album.html', controller: 'DetalheAlbumCtrl'}).
-        when('/album/:albumId/comprar', {templateUrl: 'template/find/album.html', controller: 'EditAlbumCtrl'}).
+        when('/album/:albumId/comprar', {templateUrl: 'template/find/album.html', controller: 'ComprarAlbumCtrl'}).
     	when('/album/:albumId/editar', {templateUrl: 'template/find/editAlbum.html', controller: 'EditAlbumCtrl'}).
     	otherwise({redirectTo: '/'});
 

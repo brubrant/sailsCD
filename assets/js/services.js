@@ -14,6 +14,33 @@ angular.module('localServices', ['ngResource']).
 
 angular.module('APIServices', ['ngResource']).
 	factory('ParseAPI', function($resource) {
-		return $resource('http://localhost\\:1337/album/view/:albumId');
-	}
-);
+		return $resource('http://localhost\\:1337/:itemType/:acao+/:itemId', { }, { } );
+	});
+
+
+
+
+
+
+
+// .factory('Geral', function($http, $rootScope) {
+// 	return  {
+// 		get: function(tipoItem, itemId, callback) {
+
+// 			$http.get(
+// 				'http:localhost\\:1337/'+tipoItem+'/view/'+itemId, { }
+// 				).
+// 				sucess(function(response) {
+// 					console.log(response);
+// 				}).
+// 				error(function(response) {
+// 					console.log('erro ' + response);
+// 				})
+
+// 		}
+// 	}
+// });
+
+/// http://localhost\\:1337/album/view/:albumId
+
+// $http('/album/view/:albumID',

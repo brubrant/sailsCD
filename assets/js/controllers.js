@@ -21,8 +21,18 @@ function DetalheAlbumCtrl ($scope, $routeParams, $location, Album) {
 }
 
 function EditAlbumCtrl ($scope, $routeParams, ParseAPI) {
-	$scope.album = ParseAPI.get({albumId: $routeParams.albumId}, function(album){
-		console.log('Resposta da api ' + album.toString());
+
+	$scope.album = ParseAPI.get({itemType: 'album', acao: 'view', itemId: $routeParams.albumId}, function(album){
+		console.log('Resposta da api ' + album.album.toString());
 	});
-	console.log($scope.album + ' aa');
+	
+	$scope.album.save = ParseAPI.save();
+
+	//console.log($scope.album + ' aa');
+
+
+
+
+
+	//$scope.albumz = Geral.get('album', $routeParams.albumId, console.log() )
 }
