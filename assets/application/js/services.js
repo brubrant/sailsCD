@@ -14,7 +14,7 @@ angular.module('localServices', ['ngResource']).
 
 angular.module('APIServices', ['ngResource']).
 	factory('ParseAPI', function($resource) {
-		return $resource('http://localhost\\:1337/:itemType/:acao+/:itemId', { }, { } );
+		return $resource('http://localhost\\:1337/album/:itemId', { }, { } );
 	});
 
 

@@ -1,5 +1,5 @@
  <!-- Main Grid Section -->
-<div ng-controller="AlbumCtrl">
+<div ng-controller="EditarAlbumCtrl">
   <div class="row">    
     <div class="album-title title large-12 columns">
       <h1>{{album.title}}  {{album.album}} de Laura Lopes</h1>
@@ -39,7 +39,7 @@
     </div>
     <div class="pricing large-6 large-offset-1 columns display">
         <div class="row">
-          <div class="large-5 columns"><a ng-click="irComprar()" class="button round success">Compre agora!</a></div>
+          <div class="large-5 columns"><a ng-click="saveAlbum()" class="button round success">Salvar</a></div>
           <div class="large-7 columns"><p>Apenas: <span>{{album.preco}}</span></p></div>
         </div>
     </div>

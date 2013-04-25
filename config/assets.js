@@ -8,6 +8,11 @@ module.exports.assets = {
 		'assets/mixins', 
 		'assets/js', 
 		'assets/styles', 
-		'assets/templates'
+		'assets/templates',
+		//'assets/application/lib/angular',
+		//'assets/application/lib/angular/sub',
+		//'assets/application/lib',
+		'assets/application/',
+		//'assets/application/js'
 	]
 };

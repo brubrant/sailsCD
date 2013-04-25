@@ -5521,64 +5521,64 @@ ul li {
 /* YouTube */
 /* line 60, ../sass/app.scss */
 .no-svg .fc-webicon.youtube {
-  background: url("././images/icons/fc-webicon-youtube-m.png");
+  background: url("../../images/icons/fc-webicon-youtube-m.png");
 }
 
 /* line 61, ../sass/app.scss */
 .no-svg .fc-webicon.youtube.large {
-  background: url("././images/icons/fc-webicon-youtube.png");
+  background: url("../../images/icons/fc-webicon-youtube.png");
 }
 
 /* line 62, ../sass/app.scss */
 .no-svg .fc-webicon.youtube.small {
-  background: url("././images/icons/fc-webicon-youtube-s.png");
+  background: url("../../images/icons/fc-webicon-youtube-s.png");
 }
 
 /* line 63, ../sass/app.scss */
 .svg .fc-webicon.youtube {
-  background: url("././images/icons/fc-webicon-youtube.svg");
+  background: url("../../images/icons/fc-webicon-youtube.svg");
 }
 
 /* Facebook */
 /* line 66, ../sass/app.scss */
 .no-svg .fc-webicon.facebook {
-  background: url("././images/icons/fc-webicon-facebook-m.png");
+  background: url("../../images/icons/fc-webicon-facebook-m.png");
 }
 
 /* line 67, ../sass/app.scss */
 .no-svg .fc-webicon.facebook.large {
-  background: url("././images/icons/fc-webicon-facebook.png");
+  background: url("../../images/icons/fc-webicon-facebook.png");
 }
 
 /* line 68, ../sass/app.scss */
 .no-svg .fc-webicon.facebook.small {
-  background: url("././images/icons/fc-webicon-facebook-s.png");
+  background: url("../../images/icons/fc-webicon-facebook-s.png");
 }
 
 /* line 69, ../sass/app.scss */
 .svg .fc-webicon.facebook {
-  background: url("././images/icons/fc-webicon-facebook.svg");
+  background: url("../../images/icons/fc-webicon-facebook.svg");
 }
 
 /* SoundCloud */
 /* line 72, ../sass/app.scss */
 .no-svg .fc-webicon.soundcloud {
-  background: url("././images/icons/fc-webicon-soundcloud-m.png");
+  background: url("../../images/icons/fc-webicon-soundcloud-m.png");
 }
 
 /* line 73, ../sass/app.scss */
 .no-svg .fc-webicon.soundcloud.large {
-  background: url("././images/icons/fc-webicon-soundcloud.png");
+  background: url("../../images/icons/fc-webicon-soundcloud.png");
 }
 
 /* line 74, ../sass/app.scss */
 .no-svg .fc-webicon.soundcloud.small {
-  background: url("././images/icons/fc-webicon-soundcloud-s.png");
+  background: url("../../images/icons/fc-webicon-soundcloud-s.png");
 }
 
 /* line 75, ../sass/app.scss */
 .svg .fc-webicon.soundcloud {
-  background: url("././images/icons/fc-webicon-soundcloud.svg");
+  background: url("../../images/icons/fc-webicon-soundcloud.svg");
 }
 
 /* Twitter */
