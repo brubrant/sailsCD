@@ -2,7 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', ['localServices', 'APIServices']).
+angular.module('myApp', ['localServices', 'APIServices', 'fullAPI']).
   config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider.
     	when('/', {templateUrl: 'template/find/home.html', controller: 'HomeCtrl'}).

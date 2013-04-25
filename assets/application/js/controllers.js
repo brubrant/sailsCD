@@ -20,13 +20,13 @@ function DetalheAlbumCtrl ($scope, $routeParams, $location, Album) {
     	};
 }
 
-function EditarAlbumCtrl ($scope, $routeParams, $location, Album, ParseAPI) {
+function EditarAlbumCtrl ($scope, $routeParams, $location, $http, Album, ParseAPI, parseAPI) {
 	$scope.album = Album.get({albumId: $routeParams.albumId}, function(album) {
     	//$scope.mainImageUrl = album.images[0];
   	});
 	$scope.saveAlbum = function () {
 		console.log('click!');
-		ParseAPI.save({itemId: $routeParams.albumId });
+		parseAPI.create('album', $routeParams.albumId, function(response){ console.log(response.toString());});
 	}
 }
 
